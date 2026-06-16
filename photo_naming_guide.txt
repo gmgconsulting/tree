@@ -1,0 +1,259 @@
+FAMILY TREE — PHOTO NAMING GUIDE
+============================================================
+242 unique people across all 6 tabs
+
+HOW TO USE:
+  1. Find the person in the list below
+  2. Rename their photo to the filename shown
+  3. Put ALL renamed photos in a folder called 'photos'
+  4. When uploading to Netlify, put both index.html
+     AND the photos/ folder in the same folder, then
+     drag that whole folder to netlify.com/drop
+
+NOTE: Only add photos you have — missing photos
+      simply won't show (the box stays coloured).
+
+RENAME YOUR PHOTO TO         PERSON NAME
+------------------------------------------------------------
+  jul.jpg                    Abraham J. Peipert
+  adw2.jpg                   Adam Watson
+  aid.jpg                    Aiden Jo
+  ail.jpg                    Aila Lund
+  alf.jpg                    Ailsa Falck
+  amc.jpg                    Ailsa-Jean McCord
+  rb3o.jpg                   Alex Brooks
+  ra2o.jpg                   Alex Brooks
+  axbo.jpg                   Alex Brooks
+  ab.jpg                     Alexander Brooks
+  albo.jpg                   Alexander Brooks
+  abso.jpg                   Alexander Brooks
+  als.jpg                    Alexander Stewart
+  alt.jpg                    Alice Taylor
+  alv.jpg                    Alivia McCord
+  ra3o.jpg                   Andrew Brooks
+  anb.jpg                    Andrew Brooks
+  af0.jpg                    Andrew Findlater
+  af1.jpg                    Andrew Findlater
+  af2.jpg                    Andrew Findlater
+  aj.jpg                     Andrew James
+  adm.jpg                    Andrew McCord
+  amj.jpg                    Andrew McCord Jr
+  r1.jpg                     Andrew Wilson
+  c7.jpg                     Andrew Wilson
+  mv1.jpg                    Andrew Wilson
+  ans.jpg                    Ann Stewart
+  at.jpg                     Ann Teller
+  annab.jpg                  Anna Braunstein
+  ann.jpg                    Anna Goldman
+  awa.jpg                    Annie Watson
+  c8.jpg                     Annie Wilson
+  avg.jpg                    Ava Goldman
+  byb.jpg                    Baby Brooks
+  bar.jpg                    Barbara Bedell
+  btb.jpg                    Beatrice Brooks
+  bsa.jpg                    Ben Sandler
+  bp.jpg                     Bill Putnam
+  bry.jpg                    Bryan Tomasulo
+  cal.jpg                    Caleb Jo
+  carl.jpg                   Carl Kane
+  car.jpg                    Carla Peipert
+  mv3.jpg                    Carse Wilson
+  catw.jpg                   Catherine Watson
+  cd.jpg                     Charlie Diamond
+  che.jpg                    Chelsea Addeo
+  ct.jpg                     Christina Thomson
+  mv4.jpg                    Cissie Wilson
+  cf.jpg                     Colin Findlater
+  dan_p.jpg                  Daniel Peipert
+  dan.jpg                    Danielle Findlater
+  dh.jpg                     David Hamilton
+  dl.jpg                     Debbie Lund
+  df.jpg                     Denise Findlater
+  don.jpg                    Donna Rodriguez
+  mv5.jpg                    Doris Wilson
+  dow.jpg                    Douglas Watson
+  drg.jpg                    Drew Goldstein
+  ek.jpg                     Eddie Kane
+  el.jpg                     Elaine Dwyer
+  elt.jpg                    Elizabeth Taylor
+  emw.jpg                    Emily Watson
+  emf.jpg                    Emma Findlater
+  erf.jpg                    Eric Findlater
+  evl.jpg                    Eva Luna Lund
+  fan.jpg                    Fannie Markus
+  fm.jpg                     Fay Mitzner
+  flo.jpg                    Florence Girick
+  gav.jpg                    Gavin Goldman
+  gr.jpg                     Gordon Royle
+  gc.jpg                     Grace Carr
+  gf.jpg                     Grace Findlater
+  grf.jpg                    Graham Findlater
+  gg.jpg                     Greg Goldman
+  glu.jpg                    Greg Luque
+  hpei.jpg                   H Peipert
+  harp.jpg                   Harper Tomasulo
+  ha.jpg                     Harry Atkinson
+  htl.jpg                    Heather Luque
+  hjr.jpg                    Helena Jane Royle
+  hm.jpg                     Herman Mitzner
+  hr.jpg                     Horace U. Royle
+  hws.jpg                    Howard W. Shaw
+  inga.jpg                   Inga
+  iosel.jpg                  Iosel Girik
+  im.jpg                     Ira Mitzner
+  ira2.jpg                   Ira Mitzner
+  isa.jpg                    Isaac (Israel) Girick
+  jar.jpg                    J. Armstrong
+  jack_g.jpg                 Jack Girick
+  jmc.jpg                    Jack McCord
+  jrp.jpg                    Jacqueline Rippon
+  jak.jpg                    Jake Findlater
+  js.jpg                     James Stewart
+  jwr.jpg                    James W. Royle
+  c6.jpg                     James Wilson
+  rb2o.jpg                   Jane Brooks
+  c1.jpg                     Jane Wilson
+  jnf.jpg                    Janet Findlater
+  jr.jpg                     Janie Russell
+  jns.jpg                    Janie Stewart
+  jd.jpg                     Janis Donnelly
+  jnb2.jpg                   Jean Brooks
+  jea.jpg                    Jean Goldman
+  jtr.jpg                    Jean Thelma Royle
+  jean_g.jpg                 Jeanette Girick
+  jnb.jpg                    Jeanie Brooks
+  jef.jpg                    Jeff Peipert
+  jfl.jpg                    Jeffrey Lund
+  jljr.jpg                   Jeffrey Lund Jr
+  jliv.jpg                   Jennifer Livingstone
+  jnl.jpg                    Jennifer Lund
+  jnm.jpg                    Jennifer Mitzner
+  jnw.jpg                    Jenny Wilson
+  jer.jpg                    Jerry Diamond
+  rb4o.jpg                   Jessie Brooks
+  jw.jpg                     Jessie Weir
+  c5.jpg                     Jessie Wilson
+  jw_jw.jpg                  Jessie Wilson
+  jg.jpg                     Joe Goldman
+  ji.jpg                     Joe Illigasch
+  jos.jpg                    Joe Sandler
+  jf1.jpg                    John Findlater
+  jf2.jpg                    John Findlater
+  jh.jpg                     John Hamilton
+  jl.jpg                     John Lund
+  jsh.jpg                    John Shaw
+  jwa.jpg                    John Telfer Watson
+  jt2.jpg                    John Telfer Watson
+  c4.jpg                     John Wilson
+  jol.jpg                    Jonathan Lund
+  jgi.jpg                    Joseph Girick
+  jog.jpg                    Joseph Goldman
+  jul_p.jpg                  Julie Peipert
+  kmc.jpg                    Kaitlyn McCord
+  kf.jpg                     Karen Falck
+  kr.jpg                     Kathleen Royle
+  kd.jpg                     Kenneth Donnelly
+  kri.jpg                    Kristina Ubungen
+  kg.jpg                     Kyle Goldman
+  lau.jpg                    Laura Essling
+  lay.jpg                    Layla Rose McCord
+  leg.jpg                    Leah Goldman
+  lr.jpg                     Leslie Royle
+  lf.jpg                     Lindsay Falck
+  la.jpg                     Liza Atkinson
+  lol.jpg                    Lorenzo Lanza
+  lom.jpg                    Lorin McCord
+  ln.jpg                     Louise Nichols
+  lp.jpg                     Louise Penna
+  ll.jpg                     Lucio Lanza
+  lyg.jpg                    Lyn Goldman
+  lys.jpg                    Lyn Stewart
+  mjs.jpg                    MJ Shackleton
+  mae_g.jpg                  Mae (Mamie) Girick
+  mae.jpg                    Mae Girick
+  mbo.jpg                    Margaret Brooks
+  rb1o.jpg                   Margaret Brooks
+  mf0.jpg                    Margaret Findlater
+  mgf.jpg                    Margaret Findlater
+  r2.jpg                     Margaret Murray
+  mwa.jpg                    Margaret Watson
+  c3.jpg                     Margaret Wilson
+  jw_mw.jpg                  Margaret Wilson
+  ira_w1.jpg                 Margie
+  mob.jpg                    Marion Brooks
+  c9.jpg                     Marion Wilson
+  mro.jpg                    Marjorie Rothwell
+  mh.jpg                     Mark Hamilton
+  mab.jpg                    Martha Brooks
+  myb.jpg                    Mary Brooks
+  mc.jpg                     Mary Chalmers
+  mm.jpg                     Mary Milton
+  mg.jpg                     Max Goldman
+  mxg.jpg                    Maxwell Goldman
+  myb2.jpg                   May Brooks
+  mey.jpg                    Meyer Goldman
+  mj.jpg                     Michael James
+  mij.jpg                    Michael Jo
+  mik.jpg                    Mike Goldman
+  mur.jpg                    Muriel
+  mu.jpg                     Muriel Molyneaux
+  mv2.jpg                    Murray Wilson
+  nat.jpg                    Natasha Montero
+  nlf.jpg                    Neil Findlater
+  nelw.jpg                   Neil Watson
+  nb.jpg                     Nora Brooks
+  nf0.jpg                    Norman Findlater
+  nf1.jpg                    Norman Findlater
+  pn.jpg                     Pamela Nichols
+  pm.jpg                     Patricia Moore
+  pf.jpg                     Pauline Findlater
+  ph.jpg                     Phil Goldman
+  pl.jpg                     Philip Lund
+  rach.jpg                   Rachael Robinson
+  rim.jpg                    Richard Mitzner
+  rbo.jpg                    Robert Brooks
+  ra1o.jpg                   Robert Brooks
+  rom.jpg                    Robert Mitzner
+  phi_r.jpg                  Rose
+  ros.jpg                    Rose Goldman
+  rut.jpg                    Ruthie Sandler
+  sal.jpg                    Sally Goldman
+  sc.jpg                     Sandra Fay Peipert
+  sf.jpg                     Sandra Findlater
+  san.jpg                    Sandy
+  sj.jpg                     Sarah James
+  slr.jpg                    Sarah Louise Royle
+  seg.jpg                    Sera Goldman
+  sha_t.jpg                  Shana Lauren Tomasulo
+  sha.jpg                    Sharon Ramos
+  smc.jpg                    Sheila Goldman
+  sg.jpg                     Sheryl Goldman
+  skl.jpg                    Skye Luque
+  sof.jpg                    Sofia Cruz
+  sop.jpg                    Sophie Turner
+  sta_p.jpg                  Stanley Peipert
+  stm.jpg                    Stephanie Mitzner
+  sta.jpg                    Stephen Atkinson
+  sr.jpg                     Steve Rippon
+  sh.jpg                     Stewart Hamilton
+  sum.jpg                    Susan McCord
+  sus.jpg                    Susie Stewart
+  swt.jpg                    Sweetie (Madeleine?)
+  tmc.jpg                    Thelma McCord
+  tn.jpg                     Thomas Nichols
+  tol.jpg                    Tolly Rippon
+  tj.jpg                     Tom Jo
+  tjj.jpg                    Tom Jo Jr
+  tom.jpg                    Tomas Cruz Jo
+  tof.jpg                    Toren Falck
+  tf.jpg                     Trevor Findlater
+  viv.jpg                    Viv
+  wsa.jpg                    Will Salmen
+  wbo.jpg                    William Brooks
+  wr.jpg                     William Russell
+  ws.jpg                     William Stewart
+  wtro.jpg                   William T. Russell
+  c10.jpg                    William Wilson
+  wij.jpg                    Willie Jo
+  wib.jpg                    Wilson Brooks
+  wmc.jpg                    Wilson McCord

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Family Tree</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:#f5f3ef;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;}
+#tabs{position:fixed;top:0;left:0;right:0;height:52px;background:#fff;border-bottom:2px solid #e0e0dc;display:flex;align-items:center;padding:0 12px;gap:6px;overflow-x:auto;z-index:300;box-shadow:0 2px 8px rgba(0,0,0,0.08);}
+.tab{padding:6px 12px;border-radius:6px;border:2px solid #ccc;background:#fff;cursor:pointer;font-size:12px;font-weight:600;white-space:nowrap;transition:background 0.15s,color 0.15s;}
+#frames{position:fixed;top:52px;left:0;right:0;bottom:0;}
+iframe{width:100%;height:100%;border:none;display:none;position:absolute;top:0;left:0;}
+iframe.active{display:block;}
+</style>
+</head>
+<body>
+<div id="tabs">
+  <button class="tab" id="tab-wilson"    onclick="show('wilson')"    style="border-color:#92400e;color:#92400e">Wilson Root</button>
+  <button class="tab" id="tab-brooks"    onclick="show('brooks')"    style="border-color:#14532d;color:#14532d">Brooks / Stewart</button>
+  <button class="tab" id="tab-findlater" onclick="show('findlater')" style="border-color:#4a1d96;color:#4a1d96">Findlater / Royle</button>
+  <button class="tab" id="tab-mccord"    onclick="show('mccord')"    style="border-color:#1e3a5f;color:#1e3a5f">McCord / Watson</button>
+  <button class="tab" id="tab-goldman"   onclick="show('goldman')"   style="border-color:#7c2d12;color:#7c2d12">Goldman / Girick</button>
+  <button class="tab" id="tab-girick"    onclick="show('girick')"    style="border-color:#b45309;color:#b45309">Girick Family</button>
+</div>
+<div id="frames">
+  <iframe id="frame-wilson"    src="wilson_tree.html"></iframe>
+  <iframe id="frame-brooks"    src="brooks_tree.html"></iframe>
+  <iframe id="frame-findlater" src="findlater_tree.html"></iframe>
+  <iframe id="frame-mccord"    src="mccord_tree.html"></iframe>
+  <iframe id="frame-goldman"   src="goldman_tree.html"></iframe>
+  <iframe id="frame-girick"    src="girick_tree.html"></iframe>
+</div>
+<script>
+function show(key) {
+  document.querySelectorAll('.tab').forEach(function(t) {
+    t.classList.remove('active');
+    t.style.background = '';
+    t.style.color = t.style.borderColor;
+  });
+  document.querySelectorAll('iframe').forEach(function(f) {
+    f.classList.remove('active');
+  });
+  var tab = document.getElementById('tab-' + key);
+  var frame = document.getElementById('frame-' + key);
+  if (tab) {
+    tab.classList.add('active');
+    tab.style.background = tab.style.borderColor;
+    tab.style.color = '#fff';
+  }
+  if (frame) frame.classList.add('active');
+}
+show('wilson');
+</script>
+</body>
+</html>
