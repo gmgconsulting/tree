@@ -275,11 +275,11 @@ function fitScreen(){var vw=wrap.offsetWidth,vh=wrap.offsetHeight;sc=Math.min((v
   function doFit(){
     var vw=wrap.offsetWidth,vh=wrap.offsetHeight;
     if(vw===0||vh===0){setTimeout(doFit,100);return;}
-    // Zoom to show root + first 2 generations clearly
     var rp=cpos['root'];
     sc=0.75;
-    tx=vw/2-(rp.x+110)*sc;
-    ty=40;
+    // Center horizontally on root couple, start near top
+    tx=vw/2 - rp.x*sc;
+    ty=60;
     applyT();
   }
   setTimeout(doFit,150);
