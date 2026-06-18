@@ -220,7 +220,18 @@ var sc=1.0,tx=0,ty=0,wrap=document.getElementById('wrap');
 function applyT(){var t='translate('+Math.round(tx)+'px,'+Math.round(ty)+'px) scale('+sc+')';stage.style.webkitTransform=t;stage.style.transform=t;document.getElementById('zi').textContent=Math.round(sc*100)+'%';}
 function zoomAt(mx,my,f){sc=Math.max(0.05,Math.min(10,sc*f));tx=mx-(mx-tx)*f;ty=my-(my-ty)*f;applyT();}
 function fitScreen(){var vw=wrap.offsetWidth,vh=wrap.offsetHeight;sc=Math.min((vw-40)/TW,(vh-40)/TH);tx=(vw-TW*sc)/2;ty=(vh-TH*sc)/2;applyT();}
-(function(){var vw=wrap.offsetWidth,rp=cpos['root'];sc=1.0;tx=vw/2-rp.x*sc;ty=40;applyT();})();
+(function(){
+  var vw=wrap.offsetWidth,vh=wrap.offsetHeight;
+  var rp=cpos['root'];
+  // Use fitScreen to auto-fit the whole tree, then nudge root to center
+  var TW_est=0,TH_est=0;
+  for(var k in cpos){TW_est=Math.max(TW_est,cpos[k].x+220);TH_est=Math.max(TH_est,cpos[k].y+80);}
+  sc=Math.min((vw-60)/TW_est,(vh-60)/TH_est,1.0);
+  tx=(vw-TW_est*sc)/2;
+  ty=(vh-TH_est*sc)/2;
+  if(ty<10)ty=10;
+  applyT();
+})();
 wrap.addEventListener('wheel',function(e){e.preventDefault();var r=wrap.getBoundingClientRect();zoomAt(e.clientX-r.left,e.clientY-r.top,e.deltaY<0?1.12:0.89);},{passive:false});
 var drag=false,lx=0,ly=0;
 wrap.addEventListener('mousedown',function(e){if(e.target.closest('.node'))return;drag=true;lx=e.clientX;ly=e.clientY;wrap.style.cursor='grabbing';});

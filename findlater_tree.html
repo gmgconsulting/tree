@@ -299,8 +299,14 @@ function fitScreen(){
 }
 
 (function(){
-  var vw=wrap.offsetWidth,rp=cpos['root'];
-  sc=1.0;tx=vw/2-rp.x*sc;ty=40;applyT();
+  var vw=wrap.offsetWidth,vh=wrap.offsetHeight;
+  var TW_est=0,TH_est=0;
+  for(var k in cpos){TW_est=Math.max(TW_est,cpos[k].x+220);TH_est=Math.max(TH_est,cpos[k].y+80);}
+  sc=Math.min((vw-60)/TW_est,(vh-60)/TH_est,1.0);
+  tx=(vw-TW_est*sc)/2;
+  ty=(vh-TH_est*sc)/2;
+  if(ty<10)ty=10;
+  applyT();
 })();
 
 // Mouse wheel
