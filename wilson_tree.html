@@ -287,8 +287,17 @@ function fitScreen(){
 }
 
 (function(){
-  // Small delay to ensure layout is complete before fitting
-  setTimeout(function(){ fitScreen(); }, 50);
+  function doFit(){
+    var vw=wrap.offsetWidth,vh=wrap.offsetHeight;
+    if(vw===0||vh===0){setTimeout(doFit,100);return;}
+    // Zoom to show root + first 2 generations clearly
+    var rp=cpos['root'];
+    sc=0.75;
+    tx=vw/2-(rp.x+110)*sc;
+    ty=40;
+    applyT();
+  }
+  setTimeout(doFit,150);
 })();
 
 // Mouse wheel

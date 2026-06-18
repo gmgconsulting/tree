@@ -272,8 +272,17 @@ function applyT(){var t='translate('+Math.round(tx)+'px,'+Math.round(ty)+'px) sc
 function zoomAt(mx,my,f){sc=Math.max(0.05,Math.min(10,sc*f));tx=mx-(mx-tx)*f;ty=my-(my-ty)*f;applyT();}
 function fitScreen(){var vw=wrap.offsetWidth,vh=wrap.offsetHeight;sc=Math.min((vw-40)/TW,(vh-40)/TH);tx=(vw-TW*sc)/2;ty=(vh-TH*sc)/2;applyT();}
 (function(){
-  // Small delay to ensure layout is complete before fitting
-  setTimeout(function(){ fitScreen(); }, 50);
+  function doFit(){
+    var vw=wrap.offsetWidth,vh=wrap.offsetHeight;
+    if(vw===0||vh===0){setTimeout(doFit,100);return;}
+    // Zoom to show root + first 2 generations clearly
+    var rp=cpos['root'];
+    sc=0.75;
+    tx=vw/2-(rp.x+110)*sc;
+    ty=40;
+    applyT();
+  }
+  setTimeout(doFit,150);
 })();
 wrap.addEventListener('wheel',function(e){e.preventDefault();var r=wrap.getBoundingClientRect();zoomAt(e.clientX-r.left,e.clientY-r.top,e.deltaY<0?1.12:0.89);},{passive:false});
 var drag=false,lx=0,ly=0;
